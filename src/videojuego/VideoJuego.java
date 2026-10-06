@@ -1,22 +1,27 @@
 package videojuego;
 
-public class Videojuego {
+public class VideoJuego {
     public String nombre;
     public String genero;
     String version;
     boolean activo;
-
 
     public void mostrarInformacion(){
         System.out.println("Nombre: "+nombre);
         System.out.println("Genero: "+genero);
     }
     public void Iniciar(){
-        System.out.println("Activo: "+activo);
+        if (activo == false){
+            activo = true;
+            System.out.println(nombre+ " iniciando... ");
+        }
+        System.out.println(nombre+ " iniciando... ");
     }
     void Cerrar(){
-        activo = false;
-        System.out.println("Activo: "+activo);
+        if (activo == true){
+            activo = false;
+            System.out.println(nombre+ " cerrado ");
+        }
     }
     void mostrarVersion(){
         System.out.println("Version: "+version);
