@@ -6,20 +6,20 @@ public class MainVideoJuego {
         VideoJuego juego2 = new VideoJuego();
         VideoJuego juego3 = new VideoJuego();
 
-        juego1.activo = true;
-        juego1.genero = "Terror";
-        juego1.nombre = "Resident Evil";
-        juego1.version = "5";
+        juego1.setActivo(true);
+        juego1.setGenero("Terror");
+        juego1.setNombre("Resident Evil");
+        juego1.setVersion("5");
 
-        juego2.activo = true;
-        juego2.genero = "Open world";
-        juego2.nombre = "The Last of Us";
-        juego2.version = "1";
+        juego2.setActivo(true);
+        juego2.setGenero("Open world");
+        juego2.setNombre("The Last of Us");
+        juego2.setVersion("1");
 
-        juego3.activo = true;
-        juego3.genero = "Batter Royal";
-        juego3.nombre = "Fornite";
-        juego3.version = "1.21";
+        juego3.setActivo(true);
+        juego3.setGenero("Battel Royal");
+        juego3.setNombre("Fornite");
+        juego3.setVersion("1.21");
 
         juego1.Iniciar();
         juego1.mostrarInformacion();
