@@ -6,12 +6,12 @@ public class MainProducto {
         Producto producto1 = new Producto();
         Producto producto2 = new Producto();
 
-        producto1.nombre= "Celular";
-        producto1.precio= 320;
-        producto1.categoria= "Movil";
-        producto2.nombre= "Computador";
-        producto2.precio= 700;
-        producto2.categoria= "Laptop";
+        producto1.setNombre("Celular");
+        producto1.setPrecio(320);
+        producto1.setCategoria("Movil");
+        producto2.setNombre("Computador");
+        producto2.setPrecio(320);
+        producto2.setCategoria("Laptop");
 
         producto1.mostrarInformacion();
         producto1.mostrarCategoria();
