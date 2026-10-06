@@ -1,10 +1,10 @@
 package videojuego;
 
-public class MainVideojuego {
+public class MainVideoJuego {
     static void main() {
-        Videojuego juego1 = new Videojuego();
-        Videojuego juego2 = new Videojuego();
-        Videojuego juego3 = new Videojuego();
+        VideoJuego juego1 = new VideoJuego();
+        VideoJuego juego2 = new VideoJuego();
+        VideoJuego juego3 = new VideoJuego();
 
         juego1.activo = true;
         juego1.genero = "Terror";
