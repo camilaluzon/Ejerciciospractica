@@ -7,21 +7,20 @@ public class MainTarea {
         Tarea tarea3 = new Tarea();
 
 
-        tarea1.titulo = "Diseñar interfaz";
-        tarea1.responsable = "Camila";
-        tarea1.horasEstimadas = 5;
-        tarea1.completada = false;
+        tarea1.setTitulo("Diseñar interfaz");
+        tarea1.setResponsable("Camila");
+        tarea1.setHorasEstimadas(5);
+        tarea1.setCompletada(false);
 
-        tarea2.titulo = "Crear base de datos";
-        tarea2.responsable = "Juan";
-        tarea2.horasEstimadas = 8;
-        tarea2.completada = false;
+        tarea2.setTitulo("Crear base de datos");
+        tarea2.setResponsable("Juan");
+        tarea2.setHorasEstimadas(8);
+        tarea2.setCompletada(false);
 
-        tarea3.titulo = "Realizar pruebas";
-        tarea3.responsable = "Maria";
-        tarea3.horasEstimadas = 4;
-        tarea3.completada = false;
-
+        tarea3.setTitulo("Realizar pruebas");
+        tarea3.setResponsable("Maria");
+        tarea3.setHorasEstimadas(4);
+        tarea3.setCompletada(false);
 
         tarea1.mostrarInformacion();
         tarea1.mostrarResponsable();
