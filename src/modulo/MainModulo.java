@@ -7,21 +7,20 @@ public class MainModulo {
         Modulo modulo3 = new Modulo();
 
 
-        modulo1.nombre = "Login";
-        modulo1.lenguaje = "Java";
-        modulo1.version = "1.0";
-        modulo1.terminado = false;
+        modulo1.setNombre("Login");
+        modulo1.setLenguaje("Java");
+        modulo1.setVersion("1.0");
+        modulo1.setTerminado(false);
 
-        modulo2.nombre = "Inventario";
-        modulo2.lenguaje = "Java";
-        modulo2.version = "2.0";
-        modulo2.terminado = false;
+        modulo2.setNombre("Inventario");
+        modulo2.setLenguaje("Java");
+        modulo2.setVersion("2.0");
+        modulo2.setTerminado(false);
 
-        modulo3.nombre = "Reportes";
-        modulo3.lenguaje = "Java";
-        modulo3.version = "1.5";
-        modulo3.terminado = false;
-
+        modulo3.setNombre("Reportes");
+        modulo3.setLenguaje("Java");
+        modulo3.setVersion("1.5");
+        modulo3.setTerminado(false);
 
         modulo1.mostrarInformacion();
         modulo1.mostrarEstado();
